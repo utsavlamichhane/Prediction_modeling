@@ -1,0 +1,12 @@
+Best Parameters:
+{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_depth': 20, 'class_weight': 'balanced_subsample'}
+
+Accuracy: 0.7924
+F1 Score: 0.7006
+Recall: 0.7924
+Precision: 0.6279
+Confusion Matrix:
+          High_RFI  Low_RFI  Mid_RFI
+High_RFI         0        0       22
+Low_RFI          0        0       27
+Mid_RFI          0        0      187
